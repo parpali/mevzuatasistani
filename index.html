@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mevzuat Asistanı - Sahil Güvenlik Dijital Kütüphanesi</title>
+    <meta name="description"
+        content="Sahil Güvenlik personeli için yapay zeka destekli, çevrimdışı çalışabilen kapsamlı mevzuat kütüphanesi ve adli/idari işlem rehberi.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="blob-bg"></div>
+    <div class="blob-bg blob-2"></div>
+
+    <header class="header">
+        <div class="container nav-container">
+            <div class="logo-container">
+                <img src="assets/logo.png" alt="Mevzuat Asistanı Logo" class="logo"
+                    onerror="this.src='https://via.placeholder.com/50x50/1e293b/ffffff?text=MA'">
+                <span class="logo-text">Mevzuat Asistanı</span>
+            </div>
+            <nav class="nav">
+                <a href="#ai-assistant" class="nav-link">AI Asistan</a>
+                <a href="#features" class="nav-link">Özellikler</a>
+                <a href="#security" class="nav-link">Güvenlik</a>
+                <a href="#download" class="btn btn-primary nav-btn">İndir</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <div class="badge"><i class="fas fa-shield-alt"></i> Sahil Güvenlik Personeline Özel</div>
+                    <h1 class="hero-title">Mavi Vatan'da <span class="text-gradient">Kesintisiz</span> Bilgi Gücü</h1>
+                    <p class="hero-subtitle">İnternetin olmadığı açık denizlerde bile mevzuata, adli/idari işlem
+                        rehberlerine ve akıllı koordinat çeviriciye anında ulaşın. Görev etkinliğini şansa bırakmayın.
+                    </p>
+
+                    <div class="hero-actions">
+                        <a href="#download" class="btn btn-primary btn-lg">
+                            <i class="fab fa-apple"></i> App Store
+                        </a>
+                        <a href="#download" class="btn btn-outline btn-lg">
+                            <i class="fab fa-google-play"></i> Google Play
+                        </a>
+                    </div>
+
+                    <div class="stats">
+                        <div class="stat-item">
+                            <div class="stat-number">%100</div>
+                            <div class="stat-label">Çevrimdışı Çalışma</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">256-Bit</div>
+                            <div class="stat-label">Şifreleme (RLS)</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">5+</div>
+                            <div class="stat-label">Akıllı Modül</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-image-container">
+                    <div class="glass-mockup">
+                        <img src="assets/mockup.png" alt="Mevzuat Asistanı Ekran Görüntüsü" class="hero-mockup"
+                            onerror="this.src='https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&q=80&w=800'">
+                        <div class="floating-badge badge-1">
+                            <i class="fas fa-robot"></i>
+                            Yapay Zeka Destekli
+                        </div>
+                        <div class="floating-badge badge-2">
+                            <i class="fas fa-satellite-dish"></i>
+                            Offline Koordinat
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- AI section -->
+        <section id="ai-assistant" class="features section bg-light">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2 class="section-title">Uzman Yapay Zeka (AI Chat)</h2>
+                    <p class="section-description">Mevzuatı tarayarak doğrudan sorularınıza yanıt veren sanal uzmanlar.
+                    </p>
+                </div>
+
+                <div class="features-grid">
+                    <div class="feature-card glass-panel">
+                        <div class="feature-icon bg-gradient-1">
+                            <i class="fas fa-fish"></i>
+                        </div>
+                        <h3 class="feature-title">Su Ürünleri Asistanı</h3>
+                        <p class="feature-description">1380 Sayılı Kanun, ticari/amatör tebliğler, yasaklar ve idari
+                            yaptırımlar hakkında anında rehberlik.</p>
+                    </div>
+
+                    <div class="feature-card glass-panel">
+                        <div class="feature-icon bg-gradient-2">
+                            <i class="fas fa-gavel"></i>
+                        </div>
+                        <h3 class="feature-title">Adli Kolluk Asistanı</h3>
+                        <p class="feature-description">Arama, el koyma (CMK), kaçakçılıkla mücadele ve adli tahkikat
+                            usullerinde adım adım hukuki destek.</p>
+                    </div>
+
+                    <div class="feature-card glass-panel">
+                        <div class="feature-icon bg-gradient-3">
+                            <i class="fas fa-ship"></i>
+                        </div>
+                        <h3 class="feature-title">Kontrol Bot Asistanı</h3>
+                        <p class="feature-description">Yeni tip Sahil Güvenlik kontrol botları için teknik bilgi, arıza
+                            giderme ve operasyonel prosedürler.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Core Features Section -->
+        <section id="features" class="features section">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2 class="section-title">Görev İcrasını Kolaylaştıran Modüller</h2>
+                </div>
+
+                <div class="features-grid">
+                    <div class="feature-card glass-panel">
+                        <div class="feature-icon bg-gradient-4">
+                            <i class="fas fa-book-open"></i>
+                        </div>
+                        <h3 class="feature-title">Mevzuat Kütüphanesi</h3>
+                        <p class="feature-description">Tüm Kanun, KHK ve Yönetmeliklere internet olmadan erişim. Sürekli
+                            güncel tutulan veri altyapısı.</p>
+                    </div>
+
+                    <div class="feature-card glass-panel">
+                        <div class="feature-icon bg-gradient-1">
+                            <i class="fas fa-map-marked-alt"></i>
+                        </div>
+                        <h3 class="feature-title">Akıllı Koordinat Çevirici</h3>
+                        <p class="feature-description">DD, DMS, DDM, MGRS ve UTM arasında çevrimdışı hatasız dönüşüm ile
+                            olay yerine nokta atışı intikal.</p>
+                    </div>
+
+                    <div class="feature-card glass-panel">
+                        <div class="feature-icon bg-gradient-2">
+                            <i class="fas fa-map"></i>
+                        </div>
+                        <h3 class="feature-title">Piri Reis Harita & Hava</h3>
+                        <p class="feature-description">Çevrimdışı OpenStreetMap ile rota planlama, mesafe/kerteriz
+                            ölçümü ve 3 günlük deniz hava durumu (MGM).</p>
+                    </div>
+
+                    <div class="feature-card glass-panel">
+                        <div class="feature-icon bg-gradient-3">
+                            <i class="fas fa-tasks"></i>
+                        </div>
+                        <h3 class="feature-title">Yasal İşlem Rehberi</h3>
+                        <p class="feature-description">İhlal türüne göre uygulanacak kanun maddesi ve idari/adli
+                            işlemlerin adım adım sihirbaz dökümü.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Security and Architecture -->
+        <section id="security" class="modules section bg-light">
+            <div class="container">
+                <div class="modules-container">
+                    <div class="modules-content">
+                        <h2 class="section-title">Askeri Standartlarda Güvenlik Altyapısı</h2>
+                        <ul class="modules-list">
+                            <li class="module-item">
+                                <i class="fas fa-shield-alt text-primary"></i>
+                                <span><strong>Row Level Security (RLS):</strong> Veritabanı seviyesinde izolasyon ile
+                                    %100 yetki ve veri koruması.</span>
+                            </li>
+                            <li class="module-item">
+                                <i class="fas fa-lock text-primary"></i>
+                                <span><strong>Hassas Veri Politikası:</strong> Uygulama sunucularında operasyonel
+                                    ("Gizli", "Hizmete Özel") hiçbir veri, rota veya konum KESİNLİKLE saklanmaz; cihazda
+                                    kalır.</span>
+                            </li>
+                            <li class="module-item">
+                                <i class="fas fa-key text-primary"></i>
+                                <span><strong>Kimlik Denetimi:</strong> Yalnızca Admin onaylı kurumsal hesaplar ile
+                                    giriş (Defense in Depth mimarisi).</span>
+                            </li>
+                            <li class="module-item">
+                                <i class="fas fa-user-shield text-primary"></i>
+                                <span><strong>Uçtan Uca Şifreleme:</strong> 256-Bit SSL/TLS trafiği ve disk üzerinde (At
+                                    Rest) veri şifreleme.</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="modules-visual">
+                        <div class="visual-circle"></div>
+                        <img src="assets/dashboard.png" alt="Uygulama İçi Görünüm" class="visual-img"
+                            onerror="this.src='https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?auto=format&fit=crop&q=80&w=800'">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section id="download" class="cta section">
+            <div class="container text-center">
+                <h2 class="cta-title">Dijital Dönüşüme Katılın</h2>
+                <p class="cta-subtitle">Açık denizlerde operasyonel hızınızı artırmak ve mevzuata eksiksiz hakim olmak
+                    için uygulamayı cihazınıza yükleyin.</p>
+                <div class="cta-buttons">
+                    <a href="#" class="store-badge">
+                        <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
+                            alt="Download on the App Store">
+                    </a>
+                    <a href="https://play.google.com/store/apps/details?id=tr.gov.sg.mevzuat_asistani"
+                        class="store-badge">
+                        <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"
+                            alt="Get it on Google Play">
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-col">
+                <div class="logo-container">
+                    <img src="assets/logo.png" alt="Logo" class="logo"
+                        onerror="this.src='https://via.placeholder.com/40x40/1e293b/ffffff?text=MA'">
+                    <span class="logo-text">Mevzuat Asistanı</span>
+                </div>
+                <p class="footer-desc">Sahil Güvenlik personeli için güvenilir, çevrimdışı ve yapay zeka destekli görev
+                    icra rehberi.</p>
+            </div>
+            <div class="footer-col">
+                <h4 class="footer-title">Hızlı Linkler</h4>
+                <ul class="footer-links">
+                    <li><a href="#">Ana Sayfa</a></li>
+                    <li><a href="#features">Özellikler</a></li>
+                    <li><a href="#security">Güvenlik (RLS)</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4 class="footer-title">İletişim</h4>
+                <ul class="footer-links">
+                    <li><a href="mailto:info@mevzuatasistani.com">info@mevzuatasistani.com</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom text-center">
+            <p>&copy; 2026 Mevzuat Asistanı. İzinsiz kopyalanamaz veya çoğaltılamaz.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
